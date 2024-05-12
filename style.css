@@ -448,8 +448,7 @@ font-size: 80%;
 }
 
 .grid-containerpg3 {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(50%, 1%));
+  display: flex;
   background-color: #b1b1b1;
   padding: 10px;
   margin-bottom: 5%;
@@ -484,6 +483,9 @@ font-size: 80%;
   .columnichisoupg3{
     flex: 100%;
   }
+  .grid-containerpg3{
+    flex-wrap: wrap;
+  }
 }
 
 /*OSAKA*/
@@ -495,21 +497,24 @@ font-size: 80%;
 }
 
 .grid-containerosaka {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(50%, 1%));
+  display: flex;
   background-color: #b1b1b1;
   padding: 10px;
-  margin-bottom: 5%;
+  margin-bottom: 5%; 
+  flex-direction: row;
 }
 .gridosaka-item > img{
-  width: 100%;
+  width: 80%;
+  flex: 50%; 
 }
 .gridosaka-item {
-  font-size: 3vh;
+  font-size: 30px;
   text-align: center;
+  align-content: center;
+  flex: 50%;
 }
 .gridosaka-item > p{  
-  padding-top: 20%;
+  flex: 50%;
 }
 
 .rowosakapg3{
@@ -531,6 +536,11 @@ font-size: 80%;
   .columnosakapg3{
     flex: 100%;
   }
+  .grid-containerosaka{
+    
+    flex-direction: column;
+  }
+
 }
 
 /*TENKUU*/
@@ -542,8 +552,7 @@ font-size: 80%;
 }
 
 .grid-containertenkuu {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(50%, 1%));
+  display: flex;
   background-color: #b1b1b1;
   padding: 10px;
   margin-bottom: 5%;
@@ -577,6 +586,9 @@ font-size: 80%;
 @media (max-width: 700px){
   .columnotenkuu3{
     flex: 100%;
+  }
+  .grid-containertenkuu{
+    flex-wrap: wrap;
   }
 }
 
