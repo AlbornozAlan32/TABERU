@@ -4,9 +4,8 @@
 3-SUSHI
 4-PIZZA
 5-CARNES
-6-SUBSCRIBITE-
-7-INCIAR SESION
-8-SOBRE NOSTROS*/
+6-INCIAR SESION
+7-SOBRE NOSTROS*/
 
 
 /*-----FUENTES------*/
@@ -198,7 +197,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to bottom, rgb(0 0 0/ 1),rgb(0 0 0/ .25)),url(IMAGENES/fotoprincipal.jpg);
+  background: linear-gradient(to bottom, rgb(0 0 0/ 1),rgb(0 0 0/ .25)),url(../imagenes/fotoprincipal.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -324,7 +323,7 @@ footer {
   }
   .column1pagina2{
     flex: 33%;
-    background-image: url(IMAGENES/fotosushipagina2.jpg);
+    background-image: url(../imagenes/fotosushipagina2.jpg);
     height: 100vh; 
     background-repeat: no-repeat;
     background-size: cover;
@@ -336,7 +335,7 @@ footer {
     
   .column2pagina2{
     flex: 33%;
-    background-image: url(IMAGENES/fotopizzapagina2.jpg);
+    background-image: url(../imagenes/fotopizzapagina2.jpg);
     height: 100vh; 
     background-repeat: no-repeat;
     background-size: cover;
@@ -348,7 +347,7 @@ footer {
   }
   .column3pagina2{
     flex: 33%;
-    background-image: url(IMAGENES/fotocarnepagina2.jpg);
+    background-image: url(../imagenes/fotocarnepagina2.jpg);
     height: 100vh; 
     background-repeat: no-repeat;
     background-size: cover;
@@ -1001,11 +1000,11 @@ padding: 5px;
 
 
 
-/*-------PAGINA 7-------*/
+/*-------PAGINA 6-------*/
 
 /* INCIAR SESION */
 .contenedor {
-  background-image: url('imagenes/fotofondo1pg7.jpg');
+  background-image: url('../imagenes/fotofondo1pg7.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh; 
@@ -1073,7 +1072,7 @@ padding: 5px;
 
 
 
-/*--------PAGINA 8 ---------*/
+/*--------PAGINA 7 ---------*/
 
 .sobrenosotros{
   text-align: center;
