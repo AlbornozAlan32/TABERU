@@ -51,7 +51,10 @@ html {
   /*ICHISOU*/
   /*OSAKA*/
   /*TENKUU*/
+  /*-------PAGINA 6-------*/
+  /* INCIAR SESION */
   /*--------PAGINA 7 ---------*/
+  /*prueba*/
 }
 html nav {
   display: flex;
@@ -550,6 +553,49 @@ html .gallerytenkuu img {
      object-fit: cover;
   border-radius: 10px;
 }
+html .imagenfondopg7 {
+  width: 99vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../imagenes/fotofondo1pg7.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+html .login-container {
+  max-width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+html .login-container h2 {
+  margin-bottom: 20px;
+  color: white;
+}
+html .login-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+html .login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  html .login-container {
+    width: 80%;
+  }
+}
 html .sobrenosotros {
   text-align: center;
   background: #000000;
@@ -577,4 +623,59 @@ html .sobrenosotros .btn {
 }
 html .sobrenosotros .btn:hover {
   background-color: #2980b9;
+}
+html .bodyprueba {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("../imagenes/fotofondo1pg7.jpg");
+  background-size: cover;
+  position: relative;
+}
+html .navprueba {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  position: relative;
+  z-index: 1; /* Colocar el navbar sobre el fondo */
+}
+html .navprueba ul {
+  list-style-type: none;
+  display: flex;
+}
+html .navprueba li {
+  margin-right: 20px;
+}
+html .mainprueba {
+  position: absolute; /* Posicionamiento absoluto */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto; /* Centrar horizontalmente */
+}
+html .mainprueba form {
+  display: flex;
+  flex-direction: column;
+}
+html .mainprueba label {
+  margin-bottom: 10px;
+  color: white;
+}
+html .mainprueba input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+html .mainprueba button {
+  padding: 5px 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */

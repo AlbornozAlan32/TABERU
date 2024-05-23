@@ -600,6 +600,60 @@ hr {
 
 
 
+/*-------PAGINA 6-------*/
+
+/* INCIAR SESION */
+
+.imagenfondopg7{
+  width: 99vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../imagenes/fotofondo1pg7.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.login-container {
+  max-width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  h2 {
+    margin-bottom: 20px;
+    color: white;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+}
+@media (max-width: 768px) {
+  .login-container {
+    width: 80%;
+  }
+}
+
+
+
+
 
 /*--------PAGINA 7 ---------*/
 
@@ -636,7 +690,64 @@ hr {
 
 
 
+/*prueba*/
 
+.bodyprueba {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('../imagenes/fotofondo1pg7.jpg');
+  background-size: cover;
+  position: relative;
+}
+.navprueba {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  position: relative;
+  z-index: 1; /* Colocar el navbar sobre el fondo */
+  ul {
+    list-style-type: none;
+    display: flex;
+  }
+  li {
+    margin-right: 20px;
+  }
+}
+
+.mainprueba {
+  position: absolute; /* Posicionamiento absoluto */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto; /* Centrar horizontalmente */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    margin-bottom: 10px;
+    color: white;
+  }
+  input {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  button {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+}
 
 
 
