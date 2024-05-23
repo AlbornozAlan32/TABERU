@@ -9,23 +9,27 @@
 /*-----FUENTES------*/
 @font-face {
   font-family: "SPECTRALSC-REGULAR";
-  src: url(FUENTES/SpectralSC-Regular.ttf);
+  src: url(../fuentes/SpectralSC-Regular.ttf);
 }
 @font-face {
   font-family: "URBANIST";
-  src: url(FUENTES/Urbanist-VariableFont_wght.ttf);
+  src: url(../fuentes/Urbanist-VariableFont_wght.ttf);
 }
 @font-face {
   font-family: "REDRESSED";
-  src: url(FUENTES/Redressed-Regular.ttf);
+  src: url(../fuentes/Redressed-Regular.ttf);
 }
 @font-face {
   font-family: "SPECTRALSC";
-  src: url(FUENTES/SpectralSC-ExtraLight.ttf);
+  src: url(../fuentes/SpectralSC-ExtraLight.ttf);
 }
 @font-face {
   font-family: "VIDALOKA";
-  src: url(FUENTES/Vidaloka-Regular.ttf);
+  src: url(../fuentes/Vidaloka-Regular.ttf);
+}
+@font-face {
+  font-family: "KANIT";
+  src: url(../fuentes/Kanit-Thin.ttf);
 }
 /*------------------------------*/
 * {
@@ -42,6 +46,11 @@ html {
   /*IMAGEN PRINCIPAL*/
   /*-----MAIN----*/
   /*---------PAGINA 2----------*/
+  /*-----------PAGINA3---------*/
+  /*-----MENU PRINCIPAL SUSHI------*/
+  /*ICHISOU*/
+  /*OSAKA*/
+  /*TENKUU*/
 }
 html nav {
   display: flex;
@@ -230,17 +239,12 @@ html .rowpagina2 {
   display: flex;
   color: #c7c7c7;
 }
-html .rowpagina2 .column1pagina2 h1 {
-  font-size: 400%;
-  font-family: "SPECTRALSC-REGULAR";
-}
-html .rowpagina2 .column2pagina2 h1 {
-  font-size: 400%;
-  font-family: "SPECTRALSC-REGULAR";
-}
-html .rowpagina2 .column3pagina2 h1 {
-  font-size: 400%;
-  font-family: "SPECTRALSC-REGULAR";
+html .rowpagina2 .buttonpg2 {
+  background-color: none;
+  color: rgb(161, 161, 161);
+  border: 2px solid #e7e7e7;
+  padding: 2%;
+  border-radius: 10px;
 }
 html .rowpagina2 .column1pagina2 {
   flex: 33%;
@@ -253,6 +257,10 @@ html .rowpagina2 .column1pagina2 {
   text-align: center;
   padding-top: 10%;
 }
+html .rowpagina2 .column1pagina2 h1 {
+  font-size: 400%;
+  font-family: "SPECTRALSC-REGULAR";
+}
 html .rowpagina2 .column2pagina2 {
   flex: 33%;
   background-image: url(../imagenes/fotopizzapagina2.jpg);
@@ -263,6 +271,10 @@ html .rowpagina2 .column2pagina2 {
   margin: 0.5%;
   text-align: center;
   padding-top: 10%;
+}
+html .rowpagina2 .column2pagina2 h1 {
+  font-size: 400%;
+  font-family: "SPECTRALSC-REGULAR";
 }
 html .rowpagina2 .column3pagina2 {
   flex: 33%;
@@ -275,12 +287,9 @@ html .rowpagina2 .column3pagina2 {
   text-align: center;
   padding-top: 10%;
 }
-html .rowpagina2 .buttonpg2 {
-  background-color: none;
-  color: rgb(161, 161, 161);
-  border: 2px solid #e7e7e7;
-  padding: 2%;
-  border-radius: 10px;
+html .rowpagina2 .column3pagina2 h1 {
+  font-size: 400%;
+  font-family: "SPECTRALSC-REGULAR";
 }
 @media (max-width: 700px) {
   html .rowpagina2 {
@@ -295,4 +304,248 @@ html .rowpagina2 .buttonpg2 {
   html .column3pagina2 {
     flex: 100%;
   }
+}
+html .fotoprincipalsushipg3 {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  html .fotoprincipalsushipg3 .imagen {
+    width: 100%;
+    height: auto;
+  }
+}
+html .flex-informacionsushipg3 {
+  display: flex;
+  align-items: center;
+}
+html .flex-informacionsushipg3 .textosushipg3 {
+  padding: 50px;
+  align-items: center;
+  text-align: center;
+  flex: 50%;
+}
+html .flex-informacionsushipg3 .textosushipg3 h1 {
+  padding: 10px;
+  font-size: 10vw;
+}
+html .flex-informacionsushipg3 .textosushipg3 p {
+  padding: 10px;
+  font-size: 1.3vw;
+}
+html .flex-informacionsushipg3 .fotoprincipal2sushipg3 {
+  flex: 50%;
+  padding: 10px;
+}
+html .flex-informacionsushipg3 .fotoprincipal2sushipg3 img {
+  width: 50vw;
+  border-radius: 5%;
+}
+@media (max-width: 700px) {
+  html .flex-informacionsushipg3 .flex-informacionsushipg3 {
+    flex-wrap: wrap;
+  }
+  html .flex-informacionsushipg3 .textosushipg3 {
+    flex: 100%;
+    margin-bottom: 3%;
+  }
+  html .flex-informacionsushipg3 .textosushipg3 > h1 {
+    font-size: 50vw;
+  }
+  html .flex-informacionsushipg3 .textosushipg3 > p {
+    font-size: 10vw;
+  }
+  html .flex-informacionsushipg3 .fotoprincipal2sushipg3 {
+    flex: 100%;
+  }
+}
+html hr {
+  width: 80%;
+  height: 7px;
+  background-color: black;
+  margin: 20px auto;
+}
+@media screen and (max-width: 768px) {
+  html hr {
+    width: 90%;
+  }
+}
+html .ichisou {
+  font-size: 10vw;
+  text-align: center;
+  font-family: "REDRESSED";
+  margin-bottom: 2%;
+}
+html .grid-containerpg3 {
+  display: flex;
+  background-color: #b1b1b1;
+  padding: 10px;
+  margin-bottom: 5%;
+}
+html .grid-containerpg3 .gridpg3-item {
+  text-align: center;
+}
+html .grid-containerpg3 .gridpg3-item p {
+  padding-top: 20%;
+  font-size: 160%;
+}
+html .grid-containerpg3 .gridpg3-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+@media (max-width: 800px) {
+  html .grid-containerpg3 .grid-containerpg3 {
+    flex-wrap: wrap;
+  }
+}
+html .galleryichisou {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+html .galleryichisou img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+html .osaka {
+  font-family: "Kanit", sans-serif;
+  font-size: 20rem;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+  html .osaka {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 576px) {
+  html .osaka {
+    font-size: 1.5rem;
+  }
+}
+html .containerosaka {
+  display: flex;
+  padding: 10px;
+}
+html .containerosaka .contentosaka {
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  background-color: #949BA6;
+  color: #e2e2e2;
+  border-right: 1px solid #ccc;
+  align-items: center;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+html .containerosaka .contentosaka p {
+  padding-top: 15%;
+  font-size: 200%;
+}
+html .containerosaka .imageosaka {
+  width: 50%;
+}
+html .containerosaka .imageosaka img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  html .containerosaka {
+    flex-direction: column;
+  }
+  html .containerosaka .contentosaka, html .containerosaka .imageosaka {
+    width: 100%;
+  }
+}
+html .galleryosaka {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+html .galleryosaka img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+html .tenkuu {
+  font-family: "Kanit", sans-serif;
+  font-size: 20rem;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+  html .tenkuu {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 576px) {
+  html .tenkuu {
+    font-size: 1.5rem;
+  }
+}
+html .containertenkuu {
+  display: flex;
+  padding: 10px;
+}
+html .containertenkuu .contenttenkuu {
+  width: 50%;
+  padding: 20px;
+  text-align: center;
+  background-color: #949BA6;
+  color: #e2e2e2;
+  border-right: 1px solid #ccc;
+  align-items: center;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+html .containertenkuu .contenttenkuu p {
+  padding-top: 15%;
+  font-size: 200%;
+}
+html .containertenkuu .imagetenkuu {
+  width: 50%;
+}
+html .containertenkuu .imagetenkuu img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  html .containertenkuu {
+    flex-direction: column;
+  }
+  html .containertenkuu .contenttekuu, html .containertenkuu .imagetenkuu {
+    width: 100%;
+  }
+}
+html .gallerytenkuu {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+html .gallerytenkuu img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
 }/*# sourceMappingURL=styles.css.map */

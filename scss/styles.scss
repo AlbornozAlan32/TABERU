@@ -11,23 +11,27 @@
 /*-----FUENTES------*/
 @font-face {
     font-family: "SPECTRALSC-REGULAR";
-    src: url(FUENTES/SpectralSC-Regular.ttf);
+    src: url(../fuentes/SpectralSC-Regular.ttf);
   }
   @font-face{
     font-family: "URBANIST";
-    src: url(FUENTES/Urbanist-VariableFont_wght.ttf);
+    src: url(../fuentes/Urbanist-VariableFont_wght.ttf);
   }
   @font-face{
     font-family: "REDRESSED";
-    src: url(FUENTES/Redressed-Regular.ttf);
+    src: url(../fuentes/Redressed-Regular.ttf);
   }
   @font-face{
     font-family: "SPECTRALSC";
-    src: url(FUENTES/SpectralSC-ExtraLight.ttf);
+    src: url(../fuentes/SpectralSC-ExtraLight.ttf);
   }
   @font-face{
     font-family: "VIDALOKA";
-    src: url(FUENTES/Vidaloka-Regular.ttf);
+    src: url(../fuentes/Vidaloka-Regular.ttf);
+  }
+  @font-face{
+    font-family: "KANIT";
+    src: url(../fuentes/Kanit-Thin.ttf);
   }
 
   /*------------------------------*/
@@ -248,19 +252,14 @@ section {
 .rowpagina2{
   display: flex;  
   color: #c7c7c7;
+  .buttonpg2{
+    background-color: none;
+    color: rgb(161, 161, 161);
+    border: 2px solid #e7e7e7;
+    padding: 2%;
+    border-radius: 10px;
+  }   
   
-  .column1pagina2 h1{
-    font-size: 400%;
-    font-family: "SPECTRALSC-REGULAR";
-  }
-  .column2pagina2 h1{
-    font-size: 400%;
-    font-family: "SPECTRALSC-REGULAR";
-  }
-  .column3pagina2 h1{
-    font-size: 400%;
-    font-family: "SPECTRALSC-REGULAR";
-  }
   .column1pagina2{
     flex: 33%;
     background-image: url(../imagenes/fotosushipagina2.jpg);
@@ -271,6 +270,10 @@ section {
     margin: 0.5%;   
     text-align: center; 
     padding-top: 10%;
+    h1{
+      font-size: 400%;
+      font-family: "SPECTRALSC-REGULAR";
+    }
   }
     
   .column2pagina2{
@@ -282,7 +285,11 @@ section {
     background-position: center;
     margin: 0.5%; 
     text-align: center; 
-    padding-top: 10%;      
+    padding-top: 10%; 
+    h1{
+      font-size: 400%;
+      font-family: "SPECTRALSC-REGULAR";
+    }     
     
   }
   .column3pagina2{
@@ -294,17 +301,16 @@ section {
     background-position: center; 
     margin: 0.5%; 
     text-align: center; 
-    padding-top: 10%;     
+    padding-top: 10%;  
+    h1{
+      font-size: 400%;
+      font-family: "SPECTRALSC-REGULAR";
+    }   
   }
-  
-  .buttonpg2{
-    background-color: none;
-    color: rgb(161, 161, 161);
-    border: 2px solid #e7e7e7;
-    padding: 2%;
-    border-radius: 10px;
-  }   
 }
+
+  
+  
 
 @media (max-width: 700px){
   .rowpagina2{
@@ -318,6 +324,271 @@ section {
   }
   .column3pagina2{
     flex: 100%;
+  }
+}
+
+/*-----------PAGINA3---------*/
+
+  /*-----MENU PRINCIPAL SUSHI------*/
+  .fotoprincipalsushipg3{
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 20px;
+    @media (max-width: 768px) {
+      .imagen {
+          width: 100%;
+          height: auto;
+      }
+  }
+}
+  .flex-informacionsushipg3{
+
+    display: flex;
+    align-items: center;
+
+    .textosushipg3{
+      padding: 50px;
+      align-items: center;
+      text-align: center;
+      flex: 50%;
+
+      h1{      
+      padding: 10px;
+      font-size: 10vw;
+      }
+      p {      
+      padding: 10px;
+      font-size: 1.3vw;
+      }
+    }
+    .fotoprincipal2sushipg3{
+      flex: 50%;
+      padding: 10px;
+      
+      img{
+        width: 50vw;
+        border-radius: 5%;
+      }
+    } 
+    @media (max-width: 700px){
+      .flex-informacionsushipg3{
+      flex-wrap: wrap;
+      }
+      .textosushipg3{
+        flex: 100%;
+        margin-bottom: 3%;
+      }
+      .textosushipg3 > h1{
+      font-size: 50vw;
+      }
+      .textosushipg3 > p{
+      font-size: 10vw;
+      }
+      
+      .fotoprincipal2sushipg3{
+        flex: 100%;
+      }
+      }
+  }
+  
+
+hr {
+  width: 80%;
+  height: 7px;
+  background-color: black;
+  margin: 20px auto; 
+  
+  @media screen and (max-width: 768px) {
+    width: 90%; // Cambia el ancho de la línea para pantallas más pequeñas
+  }
+}
+
+/*ICHISOU*/
+.ichisou{
+  font-size: 10vw;
+  text-align: center;
+  font-family: "REDRESSED";
+  margin-bottom: 2%;
+}
+
+.grid-containerpg3 {
+  display: flex;
+  background-color: #b1b1b1;
+  padding: 10px;
+  margin-bottom: 5%;
+  .gridpg3-item {    
+    text-align: center;
+    p{  
+      padding-top: 20%;
+      font-size: 160%;
+    }
+    img{
+      width: 100%;
+      border-radius: 10px;
+    }
+}
+@media (max-width: 800px){
+  .grid-containerpg3{
+    flex-wrap: wrap;
+  }
+}
+
+}
+.galleryichisou {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
+
+/*OSAKA*/
+.osaka {
+  font-family: 'Kanit', sans-serif;
+  font-size: 20rem;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+
+  @media (max-width: 768px){
+      font-size: 2rem;
+  }
+  
+  @media (max-width: 576px){
+      font-size: 1.5rem;
+  }
+}
+
+.containerosaka {
+  display: flex;
+  padding: 10px;
+
+  .contentosaka {
+      width: 50%;
+      padding: 20px;
+      text-align: center;
+      background-color: #949BA6;
+      color: #e2e2e2;
+      border-right: 1px solid #ccc;
+      align-items: center;
+      margin-right: 10px;
+      border-radius: 10px;
+      p{
+        padding-top: 15%;
+        font-size: 200%;
+      }
+  }
+
+  .imageosaka {
+      width: 50%;
+
+      img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+          border-radius: 10px;
+      }
+  }
+}
+@media (max-width: 768px) {
+  .containerosaka {
+      flex-direction: column;
+
+      .contentosaka, .imageosaka {
+          width: 100%;
+      }
+  }
+}
+
+.galleryosaka {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
+
+/*TENKUU*/
+.tenkuu {
+  font-family: 'Kanit', sans-serif;
+  font-size: 20rem;
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+
+  @media (max-width: 768px){
+      font-size: 2rem;
+  }
+  
+  @media (max-width: 576px){
+      font-size: 1.5rem;
+  }
+}
+
+.containertenkuu {
+  display: flex;
+  padding: 10px;
+
+  .contenttenkuu {
+      width: 50%;
+      padding: 20px;
+      text-align: center;
+      background-color: #949BA6;
+      color: #e2e2e2;
+      border-right: 1px solid #ccc;
+      align-items: center;
+      margin-right: 10px;
+      border-radius: 10px;
+      p{
+        padding-top: 15%;
+        font-size: 200%;
+      }
+  }
+
+  .imagetenkuu {
+      width: 50%;
+
+      img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+          border-radius: 10px
+      }
+  }
+}
+@media (max-width: 768px) {
+  .containertenkuu {
+      flex-direction: column;
+
+      .contenttekuu, .imagetenkuu {
+          width: 100%;
+      }
+  }
+}
+
+.gallerytenkuu {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
   }
 }
 
