@@ -680,16 +680,17 @@ hr {
   background-color: #b1b1b1;
   padding: 10px;
   margin-bottom: 5%;
+  img{
+    width: 100%;
+    border-radius: 10px;
+  }
   .gridpg4-item {    
     text-align: center;
     p{  
       padding-top: 20%;
       font-size: 160%;
     }
-    img{
-      width: 100%;
-      border-radius: 10px;
-    }
+    
 }
 @media (max-width: 800px){
   .grid-containerelcuartito{
@@ -723,16 +724,16 @@ hr {
   background-color: #b1b1b1;
   padding: 10px;
   margin-bottom: 5%;
+  img{
+    width: 100%;
+    border-radius: 10px;
+  }
   .contentlamezzeta {    
     text-align: center;
     p{  
       padding-top: 20%;
       font-size: 160%;
-    }
-    img{
-      width: 100%;
-      border-radius: 10px;
-    }
+    }    
 }
 @media (max-width: 800px){
   .containerlamezzeta{
@@ -766,16 +767,16 @@ hr {
   background-color: #b1b1b1;
   padding: 10px;
   margin-bottom: 5%;
+  img{
+    width: 100%;
+    border-radius: 10px;
+  }
   .contentguerrin {    
-    text-align: center;
+    text-align: center;    
     p{  
       padding-top: 20%;
       font-size: 160%;
-    }
-    img{
-      width: 100%;
-      border-radius: 10px;
-    }
+    }    
 }
 @media (max-width: 800px){
   .containerguerrin{
@@ -796,6 +797,204 @@ hr {
   }
 
 }
+
+/*-----------PAGINA 5---------*/
+
+  /*-----MENU PRINCIPAL CARNES------*/
+  .fotoprincipalcarnepg5{
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 20px;
+    @media (max-width: 768px) {
+      .imagen {
+          width: 100%;
+          height: auto;
+      }
+  }
+}
+  .flex-informacioncarnepg5{
+    display: flex;
+    align-items: center;
+
+    .textocarnepg5{
+      padding: 50px;
+      align-items: center;
+      text-align: center;
+      flex: 50%;
+
+      h1{      
+      padding: 10px;
+      font-size: 10vw;
+      }
+      p {      
+      padding: 10px;
+      font-size: 1.3vw;
+      }
+    }
+    .fotoprincipal2carnepg5{
+      flex: 50%;
+      padding: 10px;
+      
+      img{
+        width: 50vw;
+        border-radius: 5%;
+      }
+    } 
+    @media (max-width: 700px){
+      .flex-informacioncarnepg5{
+      flex-wrap: wrap;
+      }
+      .textocarnepg5{
+        flex: 100%;
+        margin-bottom: 3%;
+      }
+      .textocarnepg5 > h1{
+      font-size: 50vw;
+      }
+      .textocarnepg5 > p{
+      font-size: 10vw;
+      }
+      
+      .fotoprincipalcarnepg5{
+        flex: 100%;
+      }
+      }
+  }
+
+  /*DON JULIO*/
+.donjulio{
+  font-size: 10vw;
+  text-align: center;
+  font-family: "REDRESSED";
+  margin-bottom: 2%;
+}
+
+.containerdonjulio {
+  display: flex;
+  background-color: #b1b1b1;
+  padding: 10px;
+  margin-bottom: 5%;
+  img{
+    width: 100%;
+    border-radius: 10px;
+  }
+  .contentdonjulio {    
+    text-align: center;
+    p{  
+      padding-top: 20%;
+      font-size: 160%;
+    }
+    
+}
+@media (max-width: 800px){
+  .containerdonjulio{
+    flex-wrap: wrap;
+  }
+}
+
+}
+.gallerydonjulio {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
+
+/*FOGON ASADO*/
+.fogonasado{
+  font-size: 10vw;
+  text-align: center;
+  font-family: "REDRESSED";
+  margin-bottom: 2%;
+}
+
+.containerfogonasado{
+  display: flex;
+  background-color: #b1b1b1;
+  padding: 10px;
+  margin-bottom: 5%;
+    img{
+    width: 100%;
+    border-radius: 10px;
+    }
+  .contentfogonasado {    
+    text-align: center;
+    p{  
+      padding-top: 20%;
+      font-size: 160%;
+    }
+    }
+@media (max-width: 800px){
+  .containerfogonasado{
+    flex-wrap: wrap;
+  }
+}
+
+}
+.galleryfogonasado{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
+
+/*LA CABRERA*/
+.lacabrera{
+  font-size: 10vw;
+  text-align: center;
+  font-family: "REDRESSED";
+  margin-bottom: 2%;
+}
+
+.containerlacabrera{
+  display: flex;
+  background-color: #b1b1b1;
+  padding: 10px;
+  margin-bottom: 5%;
+    img{
+    width: 100%;
+    border-radius: 10px;
+    }
+  .contentlacabrera {    
+    text-align: center;
+    p{  
+      padding-top: 20%;
+      font-size: 160%;
+    }
+    }
+@media (max-width: 800px){
+  .containerlacabrera{
+    flex-wrap: wrap;
+  }
+}
+
+}
+.gallerylacabrera{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
+
+  
 
 
 
