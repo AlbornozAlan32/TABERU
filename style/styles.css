@@ -39,127 +39,107 @@
   width: 100%;
 }
 
-html {
-  /*-----MENU DE NAVEGACION-------*/
-  /*--------footer--------*/
-  /*-----------PAGINA 1----------- */
-  /*IMAGEN PRINCIPAL*/
-  /*-----MAIN----*/
-  /*---------PAGINA 2----------*/
-  /*-----------PAGINA3---------*/
-  /*-----MENU PRINCIPAL SUSHI------*/
-  /*ICHISOU*/
-  /*OSAKA*/
-  /*TENKUU*/
-  /*-----------PAGINA 4---------*/
-  /*-----MENU PRINCIPAL PIZZA------*/
-  /*EL CUARTITO*/
-  /*LA MEZZETA*/
-  /*GUERRIN*/
-  /*-----------PAGINA 5---------*/
-  /*-----MENU PRINCIPAL CARNES------*/
-  /*DON JULIO*/
-  /*FOGON ASADO*/
-  /*LA CABRERA*/
-  /*-------PAGINA 6-------*/
-  /* INCIAR SESION */
-  /*--------PAGINA 7 ---------*/
-}
-html nav {
+/*-----MENU DE NAVEGACION-------*/
+nav {
   display: flex;
   background-color: #000000;
   justify-content: space-between;
   align-items: center;
   padding: 2%;
 }
-html nav :hover {
+nav :hover {
   color: orange;
 }
-html nav a {
+nav a {
   display: flex;
   align-items: center;
   text-decoration: none;
 }
-html nav a h2 {
+nav a h2 {
   color: rgba(228, 228, 228, 0.8078431373);
   margin-left: 5%;
   font-family: "URBANIST";
   font-size: 300%;
   opacity: 80%;
 }
-html nav a img {
+nav a img {
   width: 15%;
   margin-right: 2%;
 }
-html nav nav {
+nav nav {
   display: flex;
 }
-html nav nav a {
+nav nav a {
   text-decoration: none;
   color: rgba(228, 228, 228, 0.8078431373);
   font-size: 20px;
   opacity: 80%;
 }
+
 @media (max-width: 700px) {
-  html .header {
+  .header {
     flex-direction: column;
   }
-  html .nav {
+  .nav {
     padding: 10px 0px;
   }
-  html .logo-nombre {
+  .logo-nombre {
     font-size: 100%;
   }
-  html .nav a {
+  .nav a {
     font-size: 80%;
   }
 }
-html footer {
+/*--------footer--------*/
+footer {
   background-color: rgba(0, 0, 0, 0.247);
   padding: 10px;
 }
-html footer .arrowupcircle {
+footer .arrowupcircle {
   position: fixed;
   bottom: 2%;
   right: 2%;
   width: 50px;
 }
-html footer p {
+footer p {
   text-align: center;
   padding-top: 2%;
   font-weight: bold;
 }
-html footer .footer1 {
+footer .footer1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-html footer .footer1 .footer2 {
+footer .footer1 .footer2 {
   color: #535353;
   transition: color 0.3s;
   margin-left: 10%;
 }
-html footer .footer1 .footer2 :hover {
+footer .footer1 .footer2 :hover {
   color: orange;
   cursor: pointer;
 }
-html footer .footer1 .footer2 a {
+footer .footer1 .footer2 a {
   padding-right: 50px;
   text-decoration: none;
   color: #000000;
   font-weight: bold;
   font-size: 20px;
 }
-html footer .footer1 .footer3 {
+footer .footer1 .footer3 {
   margin-left: 30%;
 }
-html footer .footer1 .footer3 a {
+footer .footer1 .footer3 a {
   margin-right: 20px;
 }
-html footer .footer1 .footer3 img {
+footer .footer1 .footer3 img {
   width: 40px;
 }
-html .wrap {
+
+/*-----------PAGINA 1----------- */
+/*IMAGEN PRINCIPAL*/
+.wrap {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -169,28 +149,30 @@ html .wrap {
   background-size: cover;
   background-position: center;
 }
-html .wrap .wrap-texto {
+.wrap .wrap-texto {
   color: #c7c7c7;
   text-align: center;
 }
-html .wrap .wrap-texto .textoimg {
+.wrap .wrap-texto .textoimg {
   font-size: 150%;
 }
-html .wrap .wrap-texto .taberu {
+.wrap .wrap-texto .taberu {
   font-size: 500%;
   color: #c7c7c7;
 }
-html section {
+
+/*-----MAIN----*/
+section {
   display: flex;
   background-color: #ffffff;
   padding: 3%;
 }
-html section .imgrayador {
+section .imgrayador {
   margin: 5%;
   width: 50%;
   flex: 50%;
 }
-html section article {
+section article {
   background-color: #e2e2e2;
   justify-content: center;
   text-align: center;
@@ -201,65 +183,68 @@ html section article {
   margin-left: 5%;
   margin-right: 5%;
 }
-html section article h1 {
+section article h1 {
   font-size: 150%;
   font-weight: bold;
   color: rgb(71, 71, 71);
 }
-html section article p {
+section article p {
   font-size: 100%;
   color: #858585;
   font-weight: bold;
 }
-html .flex-container2pg1 {
+
+.flex-container2pg1 {
   display: flex;
   text-align: center;
   margin-bottom: 2%;
 }
-html .flex-container2pg1 .flexpg1-item-left {
+.flex-container2pg1 .flexpg1-item-left {
   padding: 3%;
   flex: 40%;
   width: 60vw;
   height: 100vh;
 }
-html .flex-container2pg1 .flexpg1-item-right {
+.flex-container2pg1 .flexpg1-item-right {
   padding: 3%;
   flex: 40%;
   width: 60VW;
   height: 100vh;
 }
+
 @media (max-width: 700px) {
-  html .flex-container1pg1 {
+  .flex-container1pg1 {
     flex-direction: column;
   }
-  html .flex-container1pg1 > section p {
+  .flex-container1pg1 > section p {
     font-size: 50%;
   }
-  html .flex-container1pg1 > .section1p1 h1 {
+  .flex-container1pg1 > .section1p1 h1 {
     font-size: 100%;
   }
-  html .flex-container2pg1 {
+  .flex-container2pg1 {
     flex-direction: column;
   }
-  html .flexpg1-item-left {
+  .flexpg1-item-left {
     width: 100%;
   }
-  html .flexpg1-item-right {
+  .flexpg1-item-right {
     width: 100%;
   }
 }
-html .rowpagina2 {
+/*---------PAGINA 2----------*/
+.rowpagina2 {
   display: flex;
   color: #c7c7c7;
 }
-html .rowpagina2 .buttonpg2 {
+.rowpagina2 .buttonpg2 {
   background-color: none;
   color: rgb(161, 161, 161);
   border: 2px solid #e7e7e7;
   padding: 2%;
   border-radius: 10px;
 }
-html .rowpagina2 .column1pagina2 {
+.rowpagina2 .column1pagina2 {
   flex: 33%;
   background-image: url(../imagenes/fotosushipagina2.jpg);
   height: 100vh;
@@ -270,11 +255,11 @@ html .rowpagina2 .column1pagina2 {
   text-align: center;
   padding-top: 10%;
 }
-html .rowpagina2 .column1pagina2 h1 {
+.rowpagina2 .column1pagina2 h1 {
   font-size: 400%;
   font-family: "SPECTRALSC-REGULAR";
 }
-html .rowpagina2 .column2pagina2 {
+.rowpagina2 .column2pagina2 {
   flex: 33%;
   background-image: url(../imagenes/fotopizzapagina2.jpg);
   height: 100vh;
@@ -285,11 +270,11 @@ html .rowpagina2 .column2pagina2 {
   text-align: center;
   padding-top: 10%;
 }
-html .rowpagina2 .column2pagina2 h1 {
+.rowpagina2 .column2pagina2 h1 {
   font-size: 400%;
   font-family: "SPECTRALSC-REGULAR";
 }
-html .rowpagina2 .column3pagina2 {
+.rowpagina2 .column3pagina2 {
   flex: 33%;
   background-image: url(../imagenes/fotocarnepagina2.jpg);
   height: 100vh;
@@ -300,25 +285,28 @@ html .rowpagina2 .column3pagina2 {
   text-align: center;
   padding-top: 10%;
 }
-html .rowpagina2 .column3pagina2 h1 {
+.rowpagina2 .column3pagina2 h1 {
   font-size: 400%;
   font-family: "SPECTRALSC-REGULAR";
 }
+
 @media (max-width: 700px) {
-  html .rowpagina2 {
+  .rowpagina2 {
     flex-wrap: wrap;
   }
-  html .column1pagina2 {
+  .column1pagina2 {
     flex: 100%;
   }
-  html .column2pagina2 {
+  .column2pagina2 {
     flex: 100%;
   }
-  html .column3pagina2 {
+  .column3pagina2 {
     flex: 100%;
   }
 }
-html .fotoprincipalsushipg3 {
+/*-----------PAGINA3---------*/
+/*-----MENU PRINCIPAL SUSHI------*/
+.fotoprincipalsushipg3 {
   width: 100%;
   height: auto;
   display: block;
@@ -327,107 +315,115 @@ html .fotoprincipalsushipg3 {
   margin-bottom: 20px;
 }
 @media (max-width: 768px) {
-  html .fotoprincipalsushipg3 .imagen {
+  .fotoprincipalsushipg3 .imagen {
     width: 100%;
     height: auto;
   }
 }
-html .flex-informacionsushipg3 {
+
+.flex-informacionsushipg3 {
   display: flex;
   align-items: center;
 }
-html .flex-informacionsushipg3 .textosushipg3 {
+.flex-informacionsushipg3 .textosushipg3 {
   padding: 50px;
   align-items: center;
   text-align: center;
   flex: 50%;
 }
-html .flex-informacionsushipg3 .textosushipg3 h1 {
+.flex-informacionsushipg3 .textosushipg3 h1 {
   padding: 10px;
   font-size: 10vw;
 }
-html .flex-informacionsushipg3 .textosushipg3 p {
+.flex-informacionsushipg3 .textosushipg3 p {
   padding: 10px;
   font-size: 1.3vw;
 }
-html .flex-informacionsushipg3 .fotoprincipal2sushipg3 {
+.flex-informacionsushipg3 .fotoprincipal2sushipg3 {
   flex: 50%;
   padding: 10px;
 }
-html .flex-informacionsushipg3 .fotoprincipal2sushipg3 img {
+.flex-informacionsushipg3 .fotoprincipal2sushipg3 img {
   width: 50vw;
   border-radius: 5%;
 }
 @media (max-width: 700px) {
-  html .flex-informacionsushipg3 .flex-informacionsushipg3 {
+  .flex-informacionsushipg3 .flex-informacionsushipg3 {
     flex-wrap: wrap;
   }
-  html .flex-informacionsushipg3 .textosushipg3 {
+  .flex-informacionsushipg3 .textosushipg3 {
     flex: 100%;
     margin-bottom: 3%;
   }
-  html .flex-informacionsushipg3 .textosushipg3 > h1 {
+  .flex-informacionsushipg3 .textosushipg3 > h1 {
     font-size: 50vw;
   }
-  html .flex-informacionsushipg3 .textosushipg3 > p {
+  .flex-informacionsushipg3 .textosushipg3 > p {
     font-size: 10vw;
   }
-  html .flex-informacionsushipg3 .fotoprincipal2sushipg3 {
+  .flex-informacionsushipg3 .fotoprincipal2sushipg3 {
     flex: 100%;
   }
 }
-html hr {
+
+hr {
   width: 80%;
   height: 7px;
   background-color: black;
   margin: 20px auto;
 }
 @media screen and (max-width: 768px) {
-  html hr {
+  hr {
     width: 90%;
   }
 }
-html .ichisou {
+
+/*ICHISOU*/
+.ichisou {
   font-size: 10vw;
   text-align: center;
   font-family: "REDRESSED";
   margin-bottom: 2%;
 }
-html .grid-containerpg3 {
+
+.grid-containerpg3 {
   display: flex;
   background-color: #b1b1b1;
   padding: 10px;
   margin-bottom: 5%;
 }
-html .grid-containerpg3 .gridpg3-item {
+.grid-containerpg3 .gridpg3-item {
   text-align: center;
 }
-html .grid-containerpg3 .gridpg3-item p {
+.grid-containerpg3 .gridpg3-item p {
   padding-top: 20%;
   font-size: 160%;
 }
-html .grid-containerpg3 .gridpg3-item img {
+.grid-containerpg3 .gridpg3-item img {
   width: 100%;
   border-radius: 10px;
 }
 @media (max-width: 800px) {
-  html .grid-containerpg3 .grid-containerpg3 {
+  .grid-containerpg3 .grid-containerpg3 {
     flex-wrap: wrap;
   }
 }
-html .galleryichisou {
+
+.galleryichisou {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
-html .galleryichisou img {
+.galleryichisou img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
 }
-html .osaka {
+
+/*OSAKA*/
+.osaka {
   font-family: "Kanit", sans-serif;
   font-size: 20rem;
   color: #333;
@@ -436,20 +432,21 @@ html .osaka {
   padding: 10px;
 }
 @media (max-width: 768px) {
-  html .osaka {
+  .osaka {
     font-size: 2rem;
   }
 }
 @media (max-width: 576px) {
-  html .osaka {
+  .osaka {
     font-size: 1.5rem;
   }
 }
-html .containerosaka {
+
+.containerosaka {
   display: flex;
   padding: 10px;
 }
-html .containerosaka .contentosaka {
+.containerosaka .contentosaka {
   width: 50%;
   padding: 20px;
   text-align: center;
@@ -460,41 +457,44 @@ html .containerosaka .contentosaka {
   margin-right: 10px;
   border-radius: 10px;
 }
-html .containerosaka .contentosaka p {
+.containerosaka .contentosaka p {
   padding-top: 15%;
   font-size: 200%;
 }
-html .containerosaka .imageosaka {
+.containerosaka .imageosaka {
   width: 50%;
 }
-html .containerosaka .imageosaka img {
+.containerosaka .imageosaka img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
 }
+
 @media (max-width: 768px) {
-  html .containerosaka {
+  .containerosaka {
     flex-direction: column;
   }
-  html .containerosaka .contentosaka, html .containerosaka .imageosaka {
+  .containerosaka .contentosaka, .containerosaka .imageosaka {
     width: 100%;
   }
 }
-html .galleryosaka {
+.galleryosaka {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
-html .galleryosaka img {
+.galleryosaka img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
 }
-html .tenkuu {
+
+/*TENKUU*/
+.tenkuu {
   font-family: "Kanit", sans-serif;
   font-size: 20rem;
   color: #333;
@@ -503,20 +503,21 @@ html .tenkuu {
   padding: 10px;
 }
 @media (max-width: 768px) {
-  html .tenkuu {
+  .tenkuu {
     font-size: 2rem;
   }
 }
 @media (max-width: 576px) {
-  html .tenkuu {
+  .tenkuu {
     font-size: 1.5rem;
   }
 }
-html .containertenkuu {
+
+.containertenkuu {
   display: flex;
   padding: 10px;
 }
-html .containertenkuu .contenttenkuu {
+.containertenkuu .contenttenkuu {
   width: 50%;
   padding: 20px;
   text-align: center;
@@ -527,42 +528,46 @@ html .containertenkuu .contenttenkuu {
   margin-right: 10px;
   border-radius: 10px;
 }
-html .containertenkuu .contenttenkuu p {
+.containertenkuu .contenttenkuu p {
   padding-top: 15%;
   font-size: 200%;
 }
-html .containertenkuu .imagetenkuu {
+.containertenkuu .imagetenkuu {
   width: 50%;
 }
-html .containertenkuu .imagetenkuu img {
+.containertenkuu .imagetenkuu img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
 }
+
 @media (max-width: 768px) {
-  html .containertenkuu {
+  .containertenkuu {
     flex-direction: column;
   }
-  html .containertenkuu .contenttekuu, html .containertenkuu .imagetenkuu {
+  .containertenkuu .contenttekuu, .containertenkuu .imagetenkuu {
     width: 100%;
   }
 }
-html .gallerytenkuu {
+.gallerytenkuu {
   margin-top: 100px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
-html .gallerytenkuu img {
+.gallerytenkuu img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
 }
-html .fotoprincipalpizzapg4 {
+
+/*-----------PAGINA 4---------*/
+/*-----MENU PRINCIPAL PIZZA------*/
+.fotoprincipalpizzapg4 {
   width: 100%;
   height: auto;
   display: block;
@@ -571,187 +576,204 @@ html .fotoprincipalpizzapg4 {
   margin-bottom: 20px;
 }
 @media (max-width: 768px) {
-  html .fotoprincipalpizzapg4 .imagen {
+  .fotoprincipalpizzapg4 .imagen {
     width: 100%;
     height: auto;
   }
 }
-html .flex-informacionpizzapg4 {
+
+.flex-informacionpizzapg4 {
   display: flex;
   align-items: center;
 }
-html .flex-informacionpizzapg4 .textopizzapg4 {
+.flex-informacionpizzapg4 .textopizzapg4 {
   padding: 50px;
   align-items: center;
   text-align: center;
   flex: 50%;
 }
-html .flex-informacionpizzapg4 .textopizzapg4 h1 {
+.flex-informacionpizzapg4 .textopizzapg4 h1 {
   padding: 10px;
   font-size: 10vw;
 }
-html .flex-informacionpizzapg4 .textopizzapg4 p {
+.flex-informacionpizzapg4 .textopizzapg4 p {
   padding: 10px;
   font-size: 1.3vw;
 }
-html .flex-informacionpizzapg4 .fotoprincipal2pizzapg4 {
+.flex-informacionpizzapg4 .fotoprincipal2pizzapg4 {
   flex: 50%;
   padding: 10px;
 }
-html .flex-informacionpizzapg4 .fotoprincipal2pizzapg4 img {
+.flex-informacionpizzapg4 .fotoprincipal2pizzapg4 img {
   width: 50vw;
   border-radius: 5%;
 }
 @media (max-width: 700px) {
-  html .flex-informacionpizzapg4 .flex-informacionpizzapg4 {
+  .flex-informacionpizzapg4 .flex-informacionpizzapg4 {
     flex-wrap: wrap;
   }
-  html .flex-informacionpizzapg4 .textopizzapg4 {
+  .flex-informacionpizzapg4 .textopizzapg4 {
     flex: 100%;
     margin-bottom: 3%;
   }
-  html .flex-informacionpizzapg4 .textopizzapg4 > h1 {
+  .flex-informacionpizzapg4 .textopizzapg4 > h1 {
     font-size: 50vw;
   }
-  html .flex-informacionpizzapg4 .textopizzapg4 > p {
+  .flex-informacionpizzapg4 .textopizzapg4 > p {
     font-size: 10vw;
   }
-  html .flex-informacionpizzapg4 .fotoprincipalpizzapg4 {
+  .flex-informacionpizzapg4 .fotoprincipalpizzapg4 {
     flex: 100%;
   }
 }
-html hr {
+
+hr {
   width: 80%;
   height: 7px;
   background-color: black;
   margin: 20px auto;
 }
 @media screen and (max-width: 700px) {
-  html hr {
+  hr {
     width: 90%;
   }
 }
-html .elcuartito {
+
+/*EL CUARTITO*/
+.elcuartito {
   font-size: 10vw;
   text-align: center;
   font-family: "REDRESSED";
   margin-bottom: 2%;
 }
-html .grid-containerelcuartito {
+
+.grid-containerelcuartito {
   display: flex;
   background-color: #b1b1b1;
   padding: 10px;
   margin-bottom: 5%;
 }
-html .grid-containerelcuartito img {
+.grid-containerelcuartito img {
   width: 100%;
   border-radius: 10px;
 }
-html .grid-containerelcuartito .gridpg4-item {
+.grid-containerelcuartito .gridpg4-item {
   text-align: center;
 }
-html .grid-containerelcuartito .gridpg4-item p {
+.grid-containerelcuartito .gridpg4-item p {
   padding-top: 20%;
   font-size: 160%;
 }
 @media (max-width: 800px) {
-  html .grid-containerelcuartito .grid-containerelcuartito {
+  .grid-containerelcuartito .grid-containerelcuartito {
     flex-wrap: wrap;
   }
 }
-html .galleryelcuartito {
+
+.galleryelcuartito {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
-html .galleryelcuartito img {
+.galleryelcuartito img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
 }
-html .lamezzeta {
+
+/*LA MEZZETA*/
+.lamezzeta {
   font-size: 10vw;
   text-align: center;
   font-family: "REDRESSED";
   margin-bottom: 2%;
 }
-html .containerlamezzeta {
+
+.containerlamezzeta {
   display: flex;
   background-color: #b1b1b1;
   padding: 10px;
   margin-bottom: 5%;
 }
-html .containerlamezzeta img {
+.containerlamezzeta img {
   width: 100%;
   border-radius: 10px;
 }
-html .containerlamezzeta .contentlamezzeta {
+.containerlamezzeta .contentlamezzeta {
   text-align: center;
 }
-html .containerlamezzeta .contentlamezzeta p {
+.containerlamezzeta .contentlamezzeta p {
   padding-top: 20%;
   font-size: 160%;
 }
 @media (max-width: 800px) {
-  html .containerlamezzeta .containerlamezzeta {
+  .containerlamezzeta .containerlamezzeta {
     flex-wrap: wrap;
   }
 }
-html .gallerylamezzeta {
+
+.gallerylamezzeta {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
-html .gallerylamezzeta img {
+.gallerylamezzeta img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
 }
-html .guerrin {
+
+/*GUERRIN*/
+.guerrin {
   font-size: 10vw;
   text-align: center;
   font-family: "REDRESSED";
   margin-bottom: 2%;
 }
-html .containerguerrin {
+
+.containerguerrin {
   display: flex;
   background-color: #b1b1b1;
   padding: 10px;
   margin-bottom: 5%;
 }
-html .containerguerrin img {
+.containerguerrin img {
   width: 100%;
   border-radius: 10px;
 }
-html .containerguerrin .contentguerrin {
+.containerguerrin .contentguerrin {
   text-align: center;
 }
-html .containerguerrin .contentguerrin p {
+.containerguerrin .contentguerrin p {
   padding-top: 20%;
   font-size: 160%;
 }
 @media (max-width: 800px) {
-  html .containerguerrin .containerguerrin {
+  .containerguerrin .containerguerrin {
     flex-wrap: wrap;
   }
 }
-html .galleryguerrin {
+
+.galleryguerrin {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
-html .galleryguerrin img {
+.galleryguerrin img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
 }
-html .fotoprincipalcarnepg5 {
+
+/*-----------PAGINA 5---------*/
+/*-----MENU PRINCIPAL CARNES------*/
+.fotoprincipalcarnepg5 {
   width: 100%;
   height: auto;
   display: block;
@@ -760,176 +782,192 @@ html .fotoprincipalcarnepg5 {
   margin-bottom: 20px;
 }
 @media (max-width: 768px) {
-  html .fotoprincipalcarnepg5 .imagen {
+  .fotoprincipalcarnepg5 .imagen {
     width: 100%;
     height: auto;
   }
 }
-html .flex-informacioncarnepg5 {
+
+.flex-informacioncarnepg5 {
   display: flex;
   align-items: center;
 }
-html .flex-informacioncarnepg5 .textocarnepg5 {
+.flex-informacioncarnepg5 .textocarnepg5 {
   padding: 50px;
   align-items: center;
   text-align: center;
   flex: 50%;
 }
-html .flex-informacioncarnepg5 .textocarnepg5 h1 {
+.flex-informacioncarnepg5 .textocarnepg5 h1 {
   padding: 10px;
   font-size: 10vw;
 }
-html .flex-informacioncarnepg5 .textocarnepg5 p {
+.flex-informacioncarnepg5 .textocarnepg5 p {
   padding: 10px;
   font-size: 1.3vw;
 }
-html .flex-informacioncarnepg5 .fotoprincipal2carnepg5 {
+.flex-informacioncarnepg5 .fotoprincipal2carnepg5 {
   flex: 50%;
   padding: 10px;
 }
-html .flex-informacioncarnepg5 .fotoprincipal2carnepg5 img {
+.flex-informacioncarnepg5 .fotoprincipal2carnepg5 img {
   width: 50vw;
   border-radius: 5%;
 }
 @media (max-width: 700px) {
-  html .flex-informacioncarnepg5 .flex-informacioncarnepg5 {
+  .flex-informacioncarnepg5 .flex-informacioncarnepg5 {
     flex-wrap: wrap;
   }
-  html .flex-informacioncarnepg5 .textocarnepg5 {
+  .flex-informacioncarnepg5 .textocarnepg5 {
     flex: 100%;
     margin-bottom: 3%;
   }
-  html .flex-informacioncarnepg5 .textocarnepg5 > h1 {
+  .flex-informacioncarnepg5 .textocarnepg5 > h1 {
     font-size: 50vw;
   }
-  html .flex-informacioncarnepg5 .textocarnepg5 > p {
+  .flex-informacioncarnepg5 .textocarnepg5 > p {
     font-size: 10vw;
   }
-  html .flex-informacioncarnepg5 .fotoprincipalcarnepg5 {
+  .flex-informacioncarnepg5 .fotoprincipalcarnepg5 {
     flex: 100%;
   }
 }
-html .donjulio {
+
+/*DON JULIO*/
+.donjulio {
   font-size: 10vw;
   text-align: center;
   font-family: "REDRESSED";
   margin-bottom: 2%;
 }
-html .containerdonjulio {
+
+.containerdonjulio {
   display: flex;
   background-color: #b1b1b1;
   padding: 10px;
   margin-bottom: 5%;
 }
-html .containerdonjulio img {
+.containerdonjulio img {
   width: 100%;
   border-radius: 10px;
 }
-html .containerdonjulio .contentdonjulio {
+.containerdonjulio .contentdonjulio {
   text-align: center;
 }
-html .containerdonjulio .contentdonjulio p {
+.containerdonjulio .contentdonjulio p {
   padding-top: 20%;
   font-size: 160%;
 }
 @media (max-width: 800px) {
-  html .containerdonjulio .containerdonjulio {
+  .containerdonjulio .containerdonjulio {
     flex-wrap: wrap;
   }
 }
-html .gallerydonjulio {
+
+.gallerydonjulio {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
-html .gallerydonjulio img {
+.gallerydonjulio img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
 }
-html .fogonasado {
+
+/*FOGON ASADO*/
+.fogonasado {
   font-size: 10vw;
   text-align: center;
   font-family: "REDRESSED";
   margin-bottom: 2%;
 }
-html .containerfogonasado {
+
+.containerfogonasado {
   display: flex;
   background-color: #b1b1b1;
   padding: 10px;
   margin-bottom: 5%;
 }
-html .containerfogonasado img {
+.containerfogonasado img {
   width: 100%;
   border-radius: 10px;
 }
-html .containerfogonasado .contentfogonasado {
+.containerfogonasado .contentfogonasado {
   text-align: center;
 }
-html .containerfogonasado .contentfogonasado p {
+.containerfogonasado .contentfogonasado p {
   padding-top: 20%;
   font-size: 160%;
 }
 @media (max-width: 800px) {
-  html .containerfogonasado .containerfogonasado {
+  .containerfogonasado .containerfogonasado {
     flex-wrap: wrap;
   }
 }
-html .galleryfogonasado {
+
+.galleryfogonasado {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
-html .galleryfogonasado img {
+.galleryfogonasado img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
 }
-html .lacabrera {
+
+/*LA CABRERA*/
+.lacabrera {
   font-size: 10vw;
   text-align: center;
   font-family: "REDRESSED";
   margin-bottom: 2%;
 }
-html .containerlacabrera {
+
+.containerlacabrera {
   display: flex;
   background-color: #b1b1b1;
   padding: 10px;
   margin-bottom: 5%;
 }
-html .containerlacabrera img {
+.containerlacabrera img {
   width: 100%;
   border-radius: 10px;
 }
-html .containerlacabrera .contentlacabrera {
+.containerlacabrera .contentlacabrera {
   text-align: center;
 }
-html .containerlacabrera .contentlacabrera p {
+.containerlacabrera .contentlacabrera p {
   padding-top: 20%;
   font-size: 160%;
 }
 @media (max-width: 800px) {
-  html .containerlacabrera .containerlacabrera {
+  .containerlacabrera .containerlacabrera {
     flex-wrap: wrap;
   }
 }
-html .gallerylacabrera {
+
+.gallerylacabrera {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
-html .gallerylacabrera img {
+.gallerylacabrera img {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
 }
-html .imagenfondopg7 {
+
+/*-------PAGINA 6-------*/
+/* INCIAR SESION */
+.imagenfondopg7 {
   width: 99vw;
   height: 100vh;
   align-items: center;
@@ -939,7 +977,8 @@ html .imagenfondopg7 {
   background-position: center center;
   background-repeat: no-repeat;
 }
-html .login-container {
+
+.login-container {
   max-width: 300px;
   margin: 100px auto;
   padding: 20px;
@@ -947,18 +986,18 @@ html .login-container {
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-html .login-container h2 {
+.login-container h2 {
   margin-bottom: 20px;
   color: white;
 }
-html .login-container input {
+.login-container input {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 3px;
 }
-html .login-container button {
+.login-container button {
   width: 100%;
   padding: 10px;
   background-color: #007bff;
@@ -967,27 +1006,29 @@ html .login-container button {
   border-radius: 3px;
   cursor: pointer;
 }
+
 @media (max-width: 768px) {
-  html .login-container {
+  .login-container {
     width: 80%;
   }
 }
-html .sobrenosotros {
+/*--------PAGINA 7 ---------*/
+.sobrenosotros {
   text-align: center;
   background: #000000;
   color: #a3a3a3;
   padding: 5% 10% 5% 10%;
   font-family: "URBANIST";
 }
-html .sobrenosotros .sobrenosotros1 {
+.sobrenosotros .sobrenosotros1 {
   font-size: 3rem;
 }
-html .sobrenosotros p {
+.sobrenosotros p {
   font-size: 1.7rem;
   line-height: 3rem;
   font-family: "URBANIST";
 }
-html .sobrenosotros .btn {
+.sobrenosotros .btn {
   display: inline-block;
   padding: 10px 10px;
   background-color: #6e9dbd;
@@ -997,6 +1038,6 @@ html .sobrenosotros .btn {
   border-radius: 10px;
   transition: background-color 0.3s;
 }
-html .sobrenosotros .btn:hover {
+.sobrenosotros .btn:hover {
   background-color: #2980b9;
 }/*# sourceMappingURL=styles.css.map */
