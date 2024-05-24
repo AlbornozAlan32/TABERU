@@ -51,10 +51,14 @@ html {
   /*ICHISOU*/
   /*OSAKA*/
   /*TENKUU*/
+  /*-----------PAGINA 4---------*/
+  /*-----MENU PRINCIPAL PIZZA------*/
+  /*EL CUARTITO*/
+  /*LA MEZZETA*/
+  /*GUERRIN*/
   /*-------PAGINA 6-------*/
   /* INCIAR SESION */
   /*--------PAGINA 7 ---------*/
-  /*prueba*/
 }
 html nav {
   display: flex;
@@ -553,6 +557,195 @@ html .gallerytenkuu img {
      object-fit: cover;
   border-radius: 10px;
 }
+html .fotoprincipalpizzapg4 {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  html .fotoprincipalpizzapg4 .imagen {
+    width: 100%;
+    height: auto;
+  }
+}
+html .flex-informacionpizzapg4 {
+  display: flex;
+  align-items: center;
+}
+html .flex-informacionpizzapg4 .textopizzapg4 {
+  padding: 50px;
+  align-items: center;
+  text-align: center;
+  flex: 50%;
+}
+html .flex-informacionpizzapg4 .textopizzapg4 h1 {
+  padding: 10px;
+  font-size: 10vw;
+}
+html .flex-informacionpizzapg4 .textopizzapg4 p {
+  padding: 10px;
+  font-size: 1.3vw;
+}
+html .flex-informacionpizzapg4 .fotoprincipal2pizzapg4 {
+  flex: 50%;
+  padding: 10px;
+}
+html .flex-informacionpizzapg4 .fotoprincipal2pizzapg4 img {
+  width: 50vw;
+  border-radius: 5%;
+}
+@media (max-width: 700px) {
+  html .flex-informacionpizzapg4 .flex-informacionpizzapg4 {
+    flex-wrap: wrap;
+  }
+  html .flex-informacionpizzapg4 .textopizzapg4 {
+    flex: 100%;
+    margin-bottom: 3%;
+  }
+  html .flex-informacionpizzapg4 .textopizzapg4 > h1 {
+    font-size: 50vw;
+  }
+  html .flex-informacionpizzapg4 .textopizzapg4 > p {
+    font-size: 10vw;
+  }
+  html .flex-informacionpizzapg4 .fotoprincipalpizzapg4 {
+    flex: 100%;
+  }
+}
+html hr {
+  width: 80%;
+  height: 7px;
+  background-color: black;
+  margin: 20px auto;
+}
+@media screen and (max-width: 700px) {
+  html hr {
+    width: 90%;
+  }
+}
+html .elcuartito {
+  font-size: 10vw;
+  text-align: center;
+  font-family: "REDRESSED";
+  margin-bottom: 2%;
+}
+html .grid-containerelcuartito {
+  display: flex;
+  background-color: #b1b1b1;
+  padding: 10px;
+  margin-bottom: 5%;
+}
+html .grid-containerelcuartito .gridpg4-item {
+  text-align: center;
+}
+html .grid-containerelcuartito .gridpg4-item p {
+  padding-top: 20%;
+  font-size: 160%;
+}
+html .grid-containerelcuartito .gridpg4-item img {
+  width: 100%;
+  border-radius: 10px;
+}
+@media (max-width: 800px) {
+  html .grid-containerelcuartito .grid-containerelcuartito {
+    flex-wrap: wrap;
+  }
+}
+html .galleryelcuartito {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+html .galleryelcuartito img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+html .lamezzeta {
+  font-size: 10vw;
+  text-align: center;
+  font-family: "REDRESSED";
+  margin-bottom: 2%;
+}
+html .containerlamezzeta {
+  display: flex;
+  background-color: #b1b1b1;
+  padding: 10px;
+  margin-bottom: 5%;
+}
+html .containerlamezzeta .contentlamezzeta {
+  text-align: center;
+}
+html .containerlamezzeta .contentlamezzeta p {
+  padding-top: 20%;
+  font-size: 160%;
+}
+html .containerlamezzeta .contentlamezzeta img {
+  width: 100%;
+  border-radius: 10px;
+}
+@media (max-width: 800px) {
+  html .containerlamezzeta .containerlamezzeta {
+    flex-wrap: wrap;
+  }
+}
+html .gallerylamezzeta {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+html .gallerylamezzeta img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+html .guerrin {
+  font-size: 10vw;
+  text-align: center;
+  font-family: "REDRESSED";
+  margin-bottom: 2%;
+}
+html .containerguerrin {
+  display: flex;
+  background-color: #b1b1b1;
+  padding: 10px;
+  margin-bottom: 5%;
+}
+html .containerguerrin .contentguerrin {
+  text-align: center;
+}
+html .containerguerrin .contentguerrin p {
+  padding-top: 20%;
+  font-size: 160%;
+}
+html .containerguerrin .contentguerrin img {
+  width: 100%;
+  border-radius: 10px;
+}
+@media (max-width: 800px) {
+  html .containerguerrin .containerguerrin {
+    flex-wrap: wrap;
+  }
+}
+html .galleryguerrin {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+html .galleryguerrin img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
 html .imagenfondopg7 {
   width: 99vw;
   height: 100vh;
@@ -623,59 +816,4 @@ html .sobrenosotros .btn {
 }
 html .sobrenosotros .btn:hover {
   background-color: #2980b9;
-}
-html .bodyprueba {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-image: url("../imagenes/fotofondo1pg7.jpg");
-  background-size: cover;
-  position: relative;
-}
-html .navprueba {
-  display: flex;
-  justify-content: space-between;
-  background-color: rgba(0, 0, 0, 0.7);
-  color: white;
-  padding: 10px;
-  position: relative;
-  z-index: 1; /* Colocar el navbar sobre el fondo */
-}
-html .navprueba ul {
-  list-style-type: none;
-  display: flex;
-}
-html .navprueba li {
-  margin-right: 20px;
-}
-html .mainprueba {
-  position: absolute; /* Posicionamiento absoluto */
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  padding: 20px;
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 10px;
-  width: 300px;
-  margin: 0 auto; /* Centrar horizontalmente */
-}
-html .mainprueba form {
-  display: flex;
-  flex-direction: column;
-}
-html .mainprueba label {
-  margin-bottom: 10px;
-  color: white;
-}
-html .mainprueba input {
-  padding: 5px;
-  margin-bottom: 10px;
-}
-html .mainprueba button {
-  padding: 5px 10px;
-  background-color: #333;
-  color: white;
-  border: none;
-  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
